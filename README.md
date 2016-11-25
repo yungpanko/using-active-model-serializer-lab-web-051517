@@ -30,10 +30,7 @@ inventory.
    list of orders with `id` and `created_at` in addition to the
 description and inventory.
 6. Update the `OrderSerializer` to include the product names of all
-   products on that order, and display them with the order information
-after clicking `More Info` on `/products`.
-  * **Note:** Look out for the circular reference problem! Remember that
-    you can create new serializers and render them explicitly.
+   products on that order.
 7. Get rid of the unused `/products/id/description` and
    `/products/id/inventory` routes.
 8. Make sure tests pass!
